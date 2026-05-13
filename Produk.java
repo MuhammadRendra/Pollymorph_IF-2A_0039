@@ -4,6 +4,8 @@ public abstract class Produk{
     private int stok;
 
     public Produk(String nama, double harga, int stok){
-
+        this.nama = nama;
+        this.harga = harga;
+        this.stok = stok;
     }
 }
