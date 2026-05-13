@@ -4,4 +4,9 @@ public class Kasir{
     public Kasir(String namaKasir){
         this.namaKasir = namaKasir;
     }
+
+    public void tampilkanIdentitas(){
+        System.out.println("====TOKO GARUDA====");
+        System.out.println("Nama Kasir = " + namaKasir);
+    }
 }
