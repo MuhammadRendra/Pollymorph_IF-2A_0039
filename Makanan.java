@@ -1,0 +1,23 @@
+public class Makanan extends Produk {
+    private int kadaluarsa;
+
+    public Makanan(String nama, double harga, int stok) {
+        super(nama, harga, stok);
+        this.kadaluarsa = kadaluarsa;
+    }
+
+
+    @Override
+    public double hitungHargaAkhir(int jmlhBeli) {
+        System.out.println("Total Harga = " + hitungTotalHarga(jmlhBeli));
+        return hitungTotalHarga(jmlhBeli) * 0.95;
+
+    }
+
+    @Override
+    public void tampilkanInfo() {
+        super.tampilkanInfo();
+        System.out.println("Masa Kadaluarsa = " + kadaluarsa + "Hari");
+    }
+
+}
