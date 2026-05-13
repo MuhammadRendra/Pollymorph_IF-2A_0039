@@ -19,5 +19,7 @@ public class Kasir{
             System.out.println("Harga Akhir = " + hargaAkhir);
             p.setStok(jmlhBeli);
         }
+
+        System.out.println("Stok terbaru = " + p.getStok());
     }
 }
