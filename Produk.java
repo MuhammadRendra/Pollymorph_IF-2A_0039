@@ -27,4 +27,6 @@ public abstract class Produk {
     public double hitungTotalHarga(int jmlhBeli){
         return jmlhBeli * harga;
     }
+
+    public abstract double hitungHargaAkhir(int jmlhBeli);
 }
